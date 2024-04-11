@@ -1,0 +1,13 @@
+
+“	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î£ÎË8ÄÓÞóë1J$0065ee98-4c3a-4ae7-ad5b-3a944ab740ce
+“	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î£ÎË8ÅÓÞóë1J$05dde254-c403-4221-a34d-ef1dedd0a12f
+“	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËåÎ¥8ÅÓÞóë1J$dcbe45a4-d440-4c48-91e7-272c31373c59
+“	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÑú¥8ÅÓÞóë1J$418154f0-6ed0-4e26-822f-935956936d1e
+˜	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ý³‹áüÿÿÿÿ8ÅÓÞóë1J$060aede5-ed95-4fe8-bf82-c6fceebc4c64
+“	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Å“Ã¹8ÆÓÞóë1J$0e1701c9-95f1-41f1-8fc9-74f1e9b8d819
+ˆ
+java:S2095#"EUse try-with-resources or close this "Scanner" in a "finally" clause.(±û™Ä8³÷àóë1J$20a30eaf-45ea-42ad-a373-b79f5add0340
+ˆ
+java:S2095"EUse try-with-resources or close this "Scanner" in a "finally" clause.(±û™Ä8òÚÞóë1J$3f63ae09-2f6a-49dd-b66a-73ae1a9e7c22
+•
+java:S3776:"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(î£ÎË8”ÛÞóë1J$2f2a2200-dd33-421b-9e11-e23f52a53495
