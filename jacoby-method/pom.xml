@@ -5,12 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>newton-interpolation</artifactId>
+    <artifactId>jacoby-method</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>test</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>

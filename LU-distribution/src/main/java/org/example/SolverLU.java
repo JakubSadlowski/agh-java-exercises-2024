@@ -7,9 +7,10 @@ import java.util.Scanner;
 public class SolverLU {
     public static void main(String[] args) {
         try {
-
-            double[][] matrix = readMatrixFromFile("P1_LU.txt");
-            double[] vector = readVectorFromFile("P2_LU.txt");
+            File file = new File(".");
+            System.out.println(file.getAbsolutePath());
+            double[][] matrix = readMatrixFromFile("./LU-distribution/src/main/resources/A3_LU.txt");
+            double[] vector = readVectorFromFile("./LU-distribution/src/main/resources/B3_LU.txt");
 
             solveLU(matrix, vector);
 
