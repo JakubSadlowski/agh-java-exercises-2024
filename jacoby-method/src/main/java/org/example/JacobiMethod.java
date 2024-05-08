@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class JacobiMethod {
     private static final double EPSILON_1 = 0.001;
     private static final double EPSILON_2 = 0.000001;
-    private static final int MAX_ITERATIONS = 1000;
+    private static final int MAX_ITERATIONS = 1000000;
 
     public static void main(String[] args) {
         try {
@@ -154,7 +154,7 @@ public class JacobiMethod {
 
             double[] errors = new double[n];
             for (int i = 0; i < n; i++) {
-                errors[i] = Math.abs(b[i] - computeAx(A, x, i));
+                errors[i] = computeError(A, x, b, i);
             }
             System.out.println("Błędy dla każdego x:");
             for (int i = 0; i < n; i++) {
@@ -163,12 +163,12 @@ public class JacobiMethod {
         }
     }
 
-    private static double computeAx(double[][] A, double[] x, int i) {
+    private static double computeError(double[][] A, double[] x, double[] b, int index) {
+        double computedValue = 0;
         int n = A.length;
-        double sum = 0;
         for (int j = 0; j < n; j++) {
-            sum += A[i][j] * x[j];
+            computedValue += A[index][j] * x[j];
         }
-        return sum;
+        return Math.abs(b[index] - computedValue);
     }
 }
